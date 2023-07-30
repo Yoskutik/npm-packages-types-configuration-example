@@ -1,0 +1,7 @@
+{
+  "name": "@yoskutik/tests-package2-decorators-types-patched-old",
+  "private": true,
+  "scripts": {
+    "test": "jest --verbose=0 --silent"
+  }
+}

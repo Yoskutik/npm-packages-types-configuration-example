@@ -1,0 +1,16 @@
+{
+  "name": "@yoskutik/example-package2",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.1",
+    "rollup": "^3.22.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}

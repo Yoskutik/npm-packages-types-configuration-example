@@ -1,0 +1,7 @@
+{
+  "name": "@yoskutik/tests-package2-functions-types-not-patched",
+  "private": true,
+  "scripts": {
+    "test": "jest --verbose=0 --silent"
+  }
+}

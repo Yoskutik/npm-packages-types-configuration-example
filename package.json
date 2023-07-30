@@ -1,0 +1,13 @@
+{
+  "name": "@yoskutik/npm-packages-types-configuration-example",
+  "private": true,
+  "author": "Yoskutik <yoskutik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run build --ws && cd packages/main && npm i -f && npm test --ws"
+  },
+  "workspaces": [
+    "packages/package1",
+    "packages/package2"
+  ]
+}
